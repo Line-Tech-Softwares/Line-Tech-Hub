@@ -1,0 +1,31 @@
+node_modules/
+dist/
+dist-electron/
+release/
+*.js
+*.js.map
+!electron/preload.ts
+!vite.config.ts
+!tailwind.config.ts
+!postcss.config.js
+
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Electron
+out/
+.electron-vite/
+
+# Development
+.cache/
+*.log
+yarn-error.log
